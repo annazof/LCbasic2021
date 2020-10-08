@@ -1,6 +1,7 @@
 
 import turtle
 canvas = turtle.Screen()
+canvas.bgcolor("lightgreen")
 leo = turtle.Turtle()
 
 angles=[160, -43, 270, -97, -43, 200, -940, 17, -86]
