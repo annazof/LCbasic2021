@@ -10,7 +10,7 @@ def remove_punctuation(phrase,):
     for word in phrase_sans_punct.split():
         if "e" in word:
             count +=1
-    return(print("Your text contains", x ,"words, of which", count, "({0:.3f}".format(count/x*100), "%) contain an ""e""" ))
+    return(print("Your text contains", x ,"words, of which", count, "({0:.3f}".format(count/x*100), "%) contain an \"e\"" ))
 
 #Your text contains 243 words, of which 109 (44.8%) contain an "e".
 
